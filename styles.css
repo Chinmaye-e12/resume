@@ -1,0 +1,63 @@
+/* Color Palette */
+:root {
+    --dark-blue: #22223b;
+    --medium-blue: #4a4e69;
+    --light-blue: #9a8c98;
+    --light-gray: #c9ada7;
+    --off-white: #f2e9e4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--off-white);
+}
+
+header {
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h2 {
+    color: var(--dark-blue);
+    border-bottom: 2px solid var(--medium-blue);
+    padding-bottom: 0.5rem;
+}
+
+.job h3 {
+    margin-top: 0;
+    color: var(--medium-blue);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--dark-blue);
+    color: var(--off-white);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+p, li {
+    color: var(--medium-blue);
+}
